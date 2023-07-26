@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #1d1d1d;
+  --primary-color: #100f0f;
   --secondary-color: #252525;
   --neon-blue: #2272ff;
   --text-color: rgb(178, 190, 234);
@@ -8,7 +8,7 @@
   --gold-color: goldenrod;
 }
 
-/* Please ❤ this if you like it! */
+
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 
@@ -60,7 +60,7 @@ body {
 a[class="logo portfolio"] {
   color: var(--neon-blue);
   font-size: 50px;
-  margin-top: -30px;
+  margin-top: -17px;
   font-family: "Poppins", sans-serif;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -89,6 +89,7 @@ a[class="logo portfolio"] {
   color: var(--text-color);
   font-family: "Poppins", sans-serif;
   font-family: 'Ubuntu', sans-serif;
+  font-weight:bold;
   
 }
 .home-content .text-3 {
@@ -369,6 +370,18 @@ a[class="logo portfolio"] {
 }
 
 @media screen and (max-width: 991px) {
+    .text-1{
+        font-size: 25px;
+    }
+    .home-content .text-2{
+        margin-top:15px;
+        font-size: 49px;
+    
+    }
+    .text-3{
+        margin-top:15px;
+        font-size:36px;
+    }
   .menu-icon:checked + label,
   .menu-icon:not(:checked) + label {
     right: 55px;
